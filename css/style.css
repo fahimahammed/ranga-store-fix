@@ -37,11 +37,14 @@ body {
 }
 .single-product {
   padding: 10px;
+  margin: 5px;
   transition: 0.6s;
+  height: 410px;
+  border-radius: 10px;
+  border: 1px solid rgba(100, 98, 98, 0.233);
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
-  border-radius: 10px;
   border: 1px solid cyan;
 }
 .product-image {
@@ -50,7 +53,12 @@ body {
 }
 
 .details-card{
-  border: 1px solid gray;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 4px 4px 7px gray;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.212);
+  border: 1px solid cyan;
 }
 .cart {
   width: 350px;
